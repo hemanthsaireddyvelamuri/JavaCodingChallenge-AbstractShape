@@ -24,7 +24,46 @@ public class App {
         System.out.println("===========================================");
 
         // test more classes below
+        Rectangle rect = new Rectangle(2,4.0);
 
+        String types = rect.getShapeType();
+        double areaOfRectangle = rect.getArea();
+        double perimeterOfRectangle = rect.getPerimeter();
+
+        System.out.println("===========================================");
+        System.out.println("Rectangle");
+        System.out.println("===========================================");
+        System.out.println("A Rectangle's area will be " + areaOfRectangle);
+        System.out.println("A Rectangle's perimeter will be " + perimeterOfRectangle);
+        System.out.println("===========================================");
+        
+
+        Square sq = new Square(9.0);
+
+        String typed = sq.getShapeType();
+        double areaOfSquare = sq.getArea();
+        double perimeterOfSquare = sq.getPerimeter();
+
+        System.out.println("===========================================");
+        System.out.println("Square");
+        System.out.println("===========================================");
+        System.out.println("A Square's area will be " + areaOfSquare);
+        System.out.println("A Square's perimeter will be " + perimeterOfSquare);
+        System.out.println("===========================================");
+        
+        
+        equilateralTriangle et = new equilateralTriangle(5);
+
+        String typeOf = et.getShapeType();
+        double areaOfequilateralTriangle = et.getArea();
+        double perimeterOfequilateralTriangle = et.getPerimeter();
+
+        System.out.println("===========================================");
+        System.out.println("equilateralTriangle");
+        System.out.println("===========================================");
+        System.out.println("A equilateralTriangle's area will be " + areaOfequilateralTriangle);
+        System.out.println("A equilateralTriangle's perimeter will be " + perimeterOfequilateralTriangle);
+        System.out.println("===========================================");
     }
 
 }
